@@ -9,3 +9,36 @@ body {
 .slider-height {
     height: 700px;
 }
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slider-text h2 {
+    font-size: 65px;
+    line-height: 85px;
+}
+
+.slider-image {
+    position: relative;
+}
+
+.carousel-item::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(29, 29, 29, 0.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
