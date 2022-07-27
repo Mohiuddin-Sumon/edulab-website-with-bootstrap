@@ -11,9 +11,7 @@ body {
 }
 
 .slider-text {
-    position: absolute;
     top: 50%;
-    text-align: center;
     left: 0;
     right: 0;
     margin: auto;
@@ -24,10 +22,6 @@ body {
 .slider-text h2 {
     font-size: 65px;
     line-height: 85px;
-}
-
-.slider-image {
-    position: relative;
 }
 
 .carousel-item::before {
