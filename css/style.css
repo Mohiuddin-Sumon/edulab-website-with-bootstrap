@@ -19,11 +19,6 @@ body {
     z-index: 1;
 }
 
-.slider-text h2 {
-    font-size: 65px;
-    line-height: 85px;
-}
-
 .carousel-item::before {
     position: absolute;
     content: "";
@@ -41,11 +36,6 @@ body {
 .btn.sub-btn:hover,
 .btn.sub-btn:focus {
     color: #0d6efd;
-}
-
-/* faq css */
-.faq-area {
-    padding: 100px 0;
 }
 
 .accordion-button:focus {
