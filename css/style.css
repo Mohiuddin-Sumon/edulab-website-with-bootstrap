@@ -37,6 +37,26 @@ body {
     z-index: 1;
 }
 
+/* subscribe area css  */
+.btn.sub-btn:hover,
+.btn.sub-btn:focus {
+    color: #0d6efd;
+}
+
+/* faq css */
+.faq-area {
+    padding: 100px 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* company area css */
+.company-area {
+    margin-bottom: 75px;
+}
+
 /* footer css  */
 .footer-area {
     padding: 120px 0;
