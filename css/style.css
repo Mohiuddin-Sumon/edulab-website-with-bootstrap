@@ -19,7 +19,7 @@ body {
     z-index: 1;
 }
 
-.carousel-item::before {
+.slider-overlay::before {
     position: absolute;
     content: "";
     height: 100%;
